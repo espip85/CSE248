@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="351dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cake" />
+
+    <TextView
+
+        android:text="Wishing you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="36sp"
+        android:background="#FFCDD2"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#0D47A1"/>
+
+
+    <TextView
+        android:text="a magical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="36sp"
+        android:background="#F48FB1"
+        android:paddingLeft="60dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#4A148C"/>
+
+    <TextView
+        android:text="BIRTHDAY"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textSize="50sp"
+        android:background="#F8BBD0"
+        android:paddingLeft="90dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#880E4F"/>
+    
+
+</LinearLayout>
