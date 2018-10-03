@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void increment (View view){
         quantity = quantity + 1;
-        display(quantity++);
+        display(quantity);
     }
 
 
